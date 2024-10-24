@@ -1,0 +1,130 @@
+/* Perusasetukset */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6; /* Vaaleampi ja pehmeä taustaväri */
+    color: #333; /* Tumma teksti */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Varmistaa, ettei vaakasuoraa vieritystä ole */
+}
+
+/* Header-tyylit */
+header {
+    background-color: #F5C56A; /* Kellertävänoranssi tausta */
+    color: white;
+    padding: 20px 0;
+    text-align: left; /* Azura-nimi vasemmalle */
+    margin-left: 20px;
+    position: relative;
+}
+
+/* Kirjaudu sisään -nappi */
+.login-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007BFF; /* Sininen tausta */
+    color: white; /* Valkoinen teksti */
+    padding: 10px 20px; /* Nappiin tilaa */
+    border-radius: 5px; /* Pyöristetyt kulmat */
+    font-size: 16px; /* Tekstin koko */
+    text-decoration: none; /* Ei alleviivausta */
+    transition: background-color 0.3s ease; /* Hover-animaatio */
+}
+
+.login-btn:hover {
+    background-color: #0056b3; /* Tummempi sininen hoverissa */
+}
+
+/* Taustapalkki koko sivun leveydelle */
+body::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Koko leveys */
+    height: 100vh; /* Koko korkeus */
+    background-color: #F5C56A; /* Kellertävänoranssi väri */
+    z-index: -1; /* Taustalle */
+}
+
+/* Intro-alue */
+#intro {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white; /* Valkoinen tausta intro-alueelle */
+    border-radius: 10px; /* Pyöristetyt kulmat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hieman varjoa laatikolle */
+}
+
+/* Kirjoittamisanimaatio */
+.typing-animation {
+    display: inline-block;
+    border-right: 2px solid #333;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(50) 1s forwards, blink 0.7s step-end infinite;
+    font-size: 22px; /* Tekstin kokoa voi säätää */
+    color: #2c3e50;
+    padding: 0 20px; /* Lisätään tilaa reunoille */
+}
+
+/* Animaatio: kirjoittaminen */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Animaatio: vilkkuva kursori */
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Tekstin ulkoasu */
+.intro-text h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 700px; /* Leveys rajoitettu */
+}
+
+/* Footer-tyylit */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+    #intro {
+        padding: 40px 10px;
+    }
+
+    .intro-text h2 {
+        font-size: 28px;
+    }
+
+    .intro-text p {
+        font-size: 16px;
+    }
+}

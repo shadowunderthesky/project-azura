@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "username": "student01",
+        "password": "password123",
+        "role": "student",
+        "email": "student01@azura.com"
+    },
+    {
+        "id": 2,
+        "username": "student02",
+        "password": "password123",
+        "role": "student",
+        "email": "student02@azura.com"
+    },
+    {
+        "id": 3,
+        "username": "student03",
+        "password": "password123",
+        "role": "student",
+        "email": "student03@azura.com"
+    },
+    {
+        "id": 4,
+        "username": "student04",
+        "password": "password123",
+        "role": "student",
+        "email": "student04@azura.com"
+    },
+    {
+        "id": 5,
+        "username": "student05",
+        "password": "password123",
+        "role": "student",
+        "email": "student05@azura.com"
+    },
+    {
+        "id": 6,
+        "username": "student06",
+        "password": "password123",
+        "role": "student",
+        "email": "student06@azura.com"
+    },
+    {
+        "id": 7,
+        "username": "student07",
+        "password": "password123",
+        "role": "student",
+        "email": "student07@azura.com"
+    },
+    {
+        "id": 8,
+        "username": "student08",
+        "password": "password123",
+        "role": "student",
+        "email": "student08@azura.com"
+    },
+    {
+        "id": 9,
+        "username": "student09",
+        "password": "password123",
+        "role": "student",
+        "email": "student09@azura.com"
+    },
+    {
+        "id": 10,
+        "username": "student10",
+        "password": "password123",
+        "role": "student",
+        "email": "student10@azura.com"
+    },
+    {
+        "id": 11,
+        "username": "student11",
+        "password": "password123",
+        "role": "student",
+        "email": "student11@azura.com"
+    },
+    {
+        "id": 12,
+        "username": "student12",
+        "password": "password123",
+        "role": "student",
+        "email": "student12@azura.com"
+    },
+    {
+        "id": 13,
+        "username": "student13",
+        "password": "password123",
+        "role": "student",
+        "email": "student13@azura.com"
+    },
+    {
+        "id": 14,
+        "username": "student14",
+        "password": "password123",
+        "role": "student",
+        "email": "student14@azura.com"
+    },
+    {
+        "id": 15,
+        "username": "student15",
+        "password": "password123",
+        "role": "student",
+        "email": "student15@azura.com"
+    },
+    {
+        "id": 16,
+        "username": "student16",
+        "password": "password123",
+        "role": "student",
+        "email": "student16@azura.com"
+    },
+    {
+        "id": 17,
+        "username": "student17",
+        "password": "password123",
+        "role": "student",
+        "email": "student17@azura.com"
+    },
+    {
+        "id": 18,
+        "username": "student18",
+        "password": "password123",
+        "role": "student",
+        "email": "student18@azura.com"
+    },
+    {
+        "id": 19,
+        "username": "student19",
+        "password": "password123",
+        "role": "student",
+        "email": "student19@azura.com"
+    },
+    {
+        "id": 20,
+        "username": "student20",
+        "password": "password123",
+        "role": "student",
+        "email": "student20@azura.com"
+    },
+    {
+        "id": 21,
+        "username": "teacher01",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher01@azura.com"
+    },
+    {
+        "id": 22,
+        "username": "teacher02",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher02@azura.com"
+    },
+    {
+        "id": 23,
+        "username": "teacher03",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher03@azura.com"
+    },
+    {
+        "id": 24,
+        "username": "teacher04",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher04@azura.com"
+    },
+    {
+        "id": 25,
+        "username": "teacher05",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher05@azura.com"
+    },
+    {
+        "id": 26,
+        "username": "teacher06",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher06@azura.com"
+    },
+    {
+        "id": 27,
+        "username": "teacher07",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher07@azura.com"
+    },
+    {
+        "id": 28,
+        "username": "teacher08",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher08@azura.com"
+    },
+    {
+        "id": 29,
+        "username": "teacher09",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher09@azura.com"
+    },
+    {
+        "id": 30,
+        "username": "teacher10",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher10@azura.com"
+    },
+    {
+        "id": 31,
+        "username": "teacher11",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher11@azura.com"
+    },
+    {
+        "id": 32,
+        "username": "teacher12",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher12@azura.com"
+    },
+    {
+        "id": 33,
+        "username": "teacher13",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher13@azura.com"
+    },
+    {
+        "id": 34,
+        "username": "teacher14",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher14@azura.com"
+    },
+    {
+        "id": 35,
+        "username": "teacher15",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher15@azura.com"
+    },
+    {
+        "id": 36,
+        "username": "teacher16",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher16@azura.com"
+    },
+    {
+        "id": 37,
+        "username": "teacher17",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher17@azura.com"
+    },
+    {
+        "id": 38,
+        "username": "teacher18",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher18@azura.com"
+    },
+    {
+        "id": 39,
+        "username": "teacher19",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher19@azura.com"
+    },
+    {
+        "id": 40,
+        "username": "teacher20",
+        "password": "password123",
+        "role": "teacher",
+        "email": "teacher20@azura.com"
+    }
+]

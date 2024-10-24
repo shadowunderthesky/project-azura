@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Azura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Azura - Admin-näkymä</h1>
+        <div class="logout-container">
+            <button class="logout-btn" onclick="location.href='index.html'">Kirjaudu ulos</button>
+        </div>
+    </header>
+
+    <section id="admin-dashboard">
+        <h2>Kunnat ja Koulut</h2>
+        <div class="admin-container">
+            <p>Valitse kunta nähdäksesi koulut ja niiden opiskelijat.</p>
+            <div class="kunnat-container">
+                <button class="kunta-btn" onclick="location.href='municipalities/helsinki.html'">Helsinki</button>
+                <button class="kunta-btn" onclick="location.href='municipalities/espoo.html'">Espoo</button>
+                <button class="kunta-btn" onclick="location.href='municipalities/tampere.html'">Tampere</button>
+                <button class="kunta-btn" onclick="location.href='municipalities/turku.html'">Turku</button>
+                <button class="kunta-btn" onclick="location.href='municipalities/lohja.html'">Lohja</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

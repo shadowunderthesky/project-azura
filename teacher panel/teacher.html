@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opettajan Hallinta - Azura</title>
+    <link rel="stylesheet" href="teacher.css"> <!-- Tarkista polku -->
+</head>
+<body>
+    <header>
+        <h1>Opettajan Hallinta - Azura</h1>
+        <div class="logout-container">
+            <button class="logout-btn" onclick="location.href='index.html'">Kirjaudu ulos</button>
+        </div>
+    </header>
+
+    <section id="teacher-dashboard">
+        <h2>Kurssien hallinta</h2>
+
+        <!-- Add Course Form -->
+        <div class="add-course-container">
+            <h3>Lisää uusi kurssi</h3>
+            <form id="course-form">
+                <label for="course-name">Kurssin nimi:</label>
+                <input type="text" id="course-name" required>
+
+                <label for="course-description">Kurssin kuvaus:</label>
+                <textarea id="course-description" required></textarea>
+
+                <label for="course-duration">Kurssin kesto (päivinä):</label>
+                <input type="number" id="course-duration" min="1" required>
+
+                <button type="submit" id="submit-course">Lisää kurssi</button>
+            </form>
+        </div>
+
+        <!-- Course List -->
+        <div class="course-list-container">
+            <h3>Omat kurssit</h3>
+            <ul id="course-list"></ul>
+        </div>
+    </section>
+
+    <script src="teacher.js"></script> <!-- Tarkista polku -->
+</body>
+</html>

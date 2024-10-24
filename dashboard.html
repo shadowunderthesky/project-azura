@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Azura</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Azura</a>
+            </div>
+            <ul>
+                <li><a href="dashboard.html">Hallintapaneeli</a></li>
+                <li><a href="logout.html">Kirjaudu ulos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="dashboard-container">
+        <h1>Azura Admin Hallintapaneeli</h1>
+
+        <!-- Käyttäjien hallinta -->
+        <section class="section users">
+            <h2>Käyttäjät</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Etunimi</th>
+                        <th>Sukunimi</th>
+                        <th>Sähköposti</th>
+                        <th>Rooli</th>
+                        <th>Toiminnot</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Esimerkki</td>
+                        <td>Käyttäjä</td>
+                        <td>esimerkki@azura.fi</td>
+                        <td>Opiskelija</td>
+                        <td><a href="#">Muokkaa</a> | <a href="#">Poista</a></td>
+                    </tr>
+                    <!-- Lisää käyttäjiä tähän -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Kurssien tilastot -->
+        <section class="section courses">
+            <h2>Kurssit ja Suoritukset</h2>
+            <canvas id="courseChart" width="400" height="200"></canvas>
+        </section>
+
+        <!-- Kurssit suorituskaavio -->
+        <script>
+            var ctx = document.getElementById('courseChart').getContext('2d');
+            var courseChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Kurssi 1', 'Kurssi 2', 'Kurssi 3'],
+                    datasets: [{
+                        label: 'Suoritusten määrä',
+                        data: [12, 19, 7],
+                        backgroundColor: ['rgba(54, 162, 235, 0.2)', 'rgba(255, 159, 64, 0.2)', 'rgba(75, 192, 192, 0.2)'],
+                        borderColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 159, 64, 1)', 'rgba(75, 192, 192, 1)'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+    </div>
+
+    <footer>
+        <p>© 2024 Azura. Kaikki oikeudet pidätetään. <a href="#">Tietosuoja</a></p>
+    </footer>
+</body>
+</html>

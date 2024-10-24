@@ -1,0 +1,19 @@
+{
+    "kunnat": [
+      {
+        "nimi": "Helsinki",
+        "koulut": [
+          {"nimi": "Helsingin yhteislyseo", "osoite": "Kallionkatu 1, Helsinki"},
+          {"nimi": "Helsingin normaalikoulu", "osoite": "Mannerheimintie 4, Helsinki"}
+        ]
+      },
+      {
+        "nimi": "Espoo",
+        "koulut": [
+          {"nimi": "Espoon yhteislyseo", "osoite": "Espoonkatu 5, Espoo"},
+          {"nimi": "Tapiolan lukio", "osoite": "Tapiolantie 2, Espoo"}
+        ]
+      }
+    ]
+  }
+  

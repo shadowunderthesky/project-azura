@@ -1,0 +1,13 @@
+{
+    "name": "azura",
+    "version": "1.0.0",
+    "description": "Oppimisalusta Azura",
+    "scripts": {
+      "start": "live-server"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  
